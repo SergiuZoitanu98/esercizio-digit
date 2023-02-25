@@ -1,0 +1,34 @@
+@import '@styles/global.scss';
+.header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    &__logo{
+        height: 90px;
+    }
+    &__search_pizza{
+        padding: 20px;
+        background-color:aquamarine;
+    }
+    &__search_list{
+        position: absolute;
+        top: 40px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    &__right_side{
+        position: relative;
+    }
+    &__search_pizza{
+        text-decoration: none;
+        color: black;
+        &:hover{
+            background-color: azure;
+            cursor: pointer;
+        }
+    }
+}

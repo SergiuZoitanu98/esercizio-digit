@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+        "@app/*": ["store/*"],
+        "@hooks/*": ["common/hooks/*"],
+        "@components/*": ["common/components/*"],
+        "@features/*": ["features/*"],
+        "@api/*": ["pages/api/*"],
+        "@styles/*": ["assets/styles/*"],
+        "@images/*": ["assets/images/*"],
+        "@custom-styles/*": ["assets/styles/custom-styles/*"],
+        "@helpers/*": ["common/helpers/*"],
+        "@templates/*": ["templates/*"],
+        "@apis/*": ["store/api/*"],
+        "@reducers/*": ["store/reducers/*"],
+        "@config/*": ["config/*"],
+        "@json/*": ["assets/json/*"]
+      }
+    }
+  }
+  

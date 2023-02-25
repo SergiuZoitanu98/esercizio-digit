@@ -1,0 +1,38 @@
+@import '@styles/global.scss';
+.home_page{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    &__pizzas{
+        flex-basis: 30%;
+    }
+    &__pizzas_title{
+        background-color: black;
+        padding: 10px;
+        color: #fff;
+    }
+    &__pizza_detail{
+        flex-basis: 70%;
+        padding-top: 40px;
+        padding-left: 40px;
+        background-color: beige;
+    }
+    &__pizzas_list{
+        display: flex;
+        flex-direction: column;
+    }
+    &__pizza{
+        padding: 15px;
+        &:hover{
+            background-color: beige;
+            cursor: pointer;
+        }
+    }
+    &__pizza_active{
+        background-color: beige;
+    }
+    &__pizza_detail_list{
+        display: flex;
+        flex-direction: column;
+    }
+}
